@@ -6,3 +6,5 @@ some scripts by Perl
 `intersect_of_record_in_multifiles.pl`有一些改进，能适用于多列文本，具体来说就是根据其中的某一列来找交集关系。脚本的最后还用到了**正则替换**。
 
 `subtract.pl`处理多列文本，针对其中的某一列挑选出**该列存在于另一个单列文本**的行记录。
+### mutation_file_to_ped
+在转换的过程中，纯合变异记为`A\tA`，杂合变异记为`A\tT`，没有变异记为`T\tT`。
